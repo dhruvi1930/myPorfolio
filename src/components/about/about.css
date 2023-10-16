@@ -1,0 +1,98 @@
+#about {
+  overflow: hidden;
+  width: 100vw;
+  max-width: 70rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 3rem auto;
+}
+
+.aboutHeading {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.aboutContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.northernDevsLogo {
+  height: 12vh;
+}
+
+.aboutParagraph {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left;
+  padding: 0 2rem;
+}
+
+.tools {
+  margin: 1.5rem;
+  width: 100vw;
+  max-width: 75%;
+  text-align: left;
+}
+
+.toolBar {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  background-color: rgb(50, 50, 50);
+}
+
+.toolImage {
+  object-fit: cover;
+  width: 3rem;
+  height: 3rem;
+  margin-left: 2rem;
+}
+
+.toolBarText > p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  padding: 1rem 0;
+}
+
+.toolHeading {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .aboutContent {
+    flex-direction: column;
+  }
+  .northernDevsLogo {
+    margin-bottom: 2rem;
+  }
+  .toolImage {
+    height: 2.25rem;
+    width: 2.25rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .toolBar {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .toolImage {
+    margin-left: 0rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .toolHeading {
+    font-size: 1.5rem;
+  }
+}

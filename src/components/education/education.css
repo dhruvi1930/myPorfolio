@@ -1,0 +1,72 @@
+.horizontalLine {
+  height: 10rem;
+  border: 2px solid rgb(90, 90, 90);
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.educationContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4rem;
+  align-items: center;
+}
+
+.degreeImage {
+  height: 4rem;
+  margin-right: 2rem;
+}
+
+.degrees {
+  display: flex;
+  align-items: center;
+}
+
+#education {
+  overflow: hidden;
+  width: 100%;
+  max-width: 70rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 7rem auto;
+}
+
+.details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.degreeHeading {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 900px) {
+  .degrees {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .horizontalLine {
+    display: none;
+  }
+  .details {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .degreeHeading {
+    line-break: auto;
+  }
+}

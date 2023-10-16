@@ -1,0 +1,102 @@
+.navBar {
+  height: 5rem;
+  background-color: rgb(30, 30, 30);
+  width: 100vw;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.logo {
+  object-fit: cover;
+  cursor: pointer;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.navBarMenuListItem {
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.navBarMenuListItem:hover {
+  color: yellow;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid yellow;
+}
+
+.mobMenu {
+  display: none;
+  object-fit: cover;
+}
+
+.navMenu {
+  position: absolute;
+  top: 4rem;
+  right: 2rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  height: fit-content;
+  width: 15rem;
+  background-color: rgb(40, 40, 40);
+  border-radius: 1rem;
+  display: none;
+}
+
+.listItem {
+  color: white;
+  padding: 0.5rem 3rem;
+  margin: 0.25rem;
+  background: rgb(30, 30, 30);
+  cursor: pointer;
+}
+
+.contactMe {
+  background-color: white;
+  cursor: pointer;
+  color: black;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  border-radius: 2rem;
+}
+
+.active {
+  color: yellow;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid yellow;
+}
+
+@media screen and (max-width: 730px) {
+  .mobMenu {
+    display: flex;
+  }
+  .navBarMenu {
+    display: none;
+  }
+  .contactMe {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 731px) {
+  .navMenu {
+    display: none !important; /* Use !important to ensure it overrides inline styles */
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .navMenu {
+    width: 12rem;
+  }
+}

@@ -1,0 +1,7 @@
+.socialMedia {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  background-image: linear-gradient(rgb(30, 30, 30), rgb(65, 65, 65));
+}
