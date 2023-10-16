@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/myPorfolio/static/css/main.bbe2286c.css",
+    "main.js": "/myPorfolio/static/js/main.236d2abc.js",
+    "static/media/eCommerce.png": "/myPorfolio/static/media/eCommerce.fb0095959d746a84de87.png",
+    "static/media/dhruvi.png": "/myPorfolio/static/media/dhruvi.2a748bbc6d6e1c25ba02.png",
+    "static/media/northernDevsLogo.png": "/myPorfolio/static/media/northernDevsLogo.870bcf696b0c2b3fb284.png",
+    "static/media/virtualTherapist.png": "/myPorfolio/static/media/virtualTherapist.a67a03f8259b31dcaed4.png",
+    "static/media/formFiller.png": "/myPorfolio/static/media/formFiller.4d72a4c0c67a5406c361.png",
+    "static/media/reservation.png": "/myPorfolio/static/media/reservation.6f9f3f592e86e640a7a7.png",
+    "static/media/editor.png": "/myPorfolio/static/media/editor.47460c93a2b027f91b73.png",
+    "static/media/healthCard.png": "/myPorfolio/static/media/healthCard.881c382539c319906246.png",
+    "static/media/firebase.png": "/myPorfolio/static/media/firebase.dd0506767686cef5f2ed.png",
+    "static/media/vscode.png": "/myPorfolio/static/media/vscode.7d8c7adda15236e9f4a3.png",
+    "static/media/webflow.png": "/myPorfolio/static/media/webflow.224b7e1dd1fd0dc73b17.png",
+    "static/media/sendGrid.png": "/myPorfolio/static/media/sendGrid.aa7a92a5a48ad7a2beae.png",
+    "index.html": "/myPorfolio/index.html",
+    "main.bbe2286c.css.map": "/myPorfolio/static/css/main.bbe2286c.css.map",
+    "main.236d2abc.js.map": "/myPorfolio/static/js/main.236d2abc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbe2286c.css",
+    "static/js/main.236d2abc.js"
+  ]
+}
